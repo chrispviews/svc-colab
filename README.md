@@ -1,5 +1,6 @@
-# @title svc-colab
+# svc-colab
 This is a work in progress. It is a fork of the colab including fixes by YeezyBeaver. 
+The purpose of these modifications are to support multiple speakers from different models to choose from. 
 changes made to YeezyBeaver fixed colab nb:
 
 In this updated code, model_urls is defined as a list of URLs, and the for loop iterates over each URL in the list. The if statement inside the loop checks if the URL is a Hugging Face URL, and if it is, it uses the re.sub() function to replace "/blob/" with "/resolve/" in the URL and then downloads the model with download(). If the URL is not a Hugging Face URL, it simply downloads the file with download().
