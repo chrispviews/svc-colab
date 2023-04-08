@@ -9,6 +9,7 @@ This code recursively searches for all .zip files in the specified directory and
 
 The code fixes the glob.glob() function to find all zip files in the current and subdirectories. For each zip file found, the extract() function is called to extract the contents of the zip file to the current directory.
 
-Warning! some issues I have not resolved: 
+# Warning! 
+<b> some issues I have not resolved: </b>
 * Using multiple speakers is missing clustering models for all except 1 speaker... meaning the speaker is recognized in the final inferencing cell, however the output is discombobulated. 
 * This error is presented through this message:  "Note: No clustering model found for "+folder meanwhile one speaker model will work perfectly fine. All downloaded and extracted speakers will show up in the GUI dropdown menu.
